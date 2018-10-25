@@ -1,0 +1,191 @@
+body{
+  background-color: black;
+
+}
+
+
+header {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  border-bottom: 1px solid seashell;
+  position: fixed;
+  height: 69px;
+  width: 100%;
+  top:0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 3;
+
+}
+
+
+#logo {
+  height: 50px;
+  padding-left: 10px;
+
+}
+
+
+nav {
+display: flex;
+justify-content: flex-end;
+
+
+}
+
+li {
+  display: inline-block;
+  justify-content: flex-end;
+  padding: 20px;
+  text-decoration: underline;
+  color: seashell;
+
+
+}
+
+a:link {
+  color: seashell;
+}
+
+#main {
+  position: relative;
+  padding-top: 69px;
+
+  font-family: Helvetica;
+  color: seashell;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0;
+  text-align: center;
+  opacity: 0.9;
+
+
+}
+
+#mission {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  height: 700px;
+  width: 1200px;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+}
+
+.content {
+  background-color: black;
+  width: 100%;
+
+}
+
+
+h2 {
+  font-size: 33px;
+  font-weight: 700;
+  display: block;
+
+}
+
+
+h4{
+  font-size: 22px;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 22px;
+}
+
+
+h4, h2, h3 {
+  padding: 10px;
+  margin: 0;
+
+}
+
+#store {
+  width: 1000px;
+  margin-top: 70px;
+
+}
+
+.items img {
+  width: 300px;
+  height: 200px;
+  margin: 10px;
+
+}
+
+p{
+  margin-top: 0;
+  font-weight: 700;
+  font-size: 22px;
+}
+
+#locations {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+  height: 500px;
+  width: 1200px;
+  margin-top: 50px;
+  padding-top: 70px;
+
+
+
+}
+
+#locations h2 {
+
+}
+
+.blocks{
+  background-color: black;
+  opacity: 1;
+  width: 300px;
+  margin: 20px;
+  margin-top: 5px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+
+.blocks p {
+  font-weight: 400;
+  line-height: 3;
+  margin-bottom: 0;
+}
+
+#contact {
+  height: 200px;
+  margin-top: 50px;
+
+}
+
+h5 {
+  margin:30px;
+  font-size: 18px;
+}
+
+#footer {
+  width:100%;
+}
+
+#footer h5 {
+  margin-left: 20px;
+  text-align: left;
+}
